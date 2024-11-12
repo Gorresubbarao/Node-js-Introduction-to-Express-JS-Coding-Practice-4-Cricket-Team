@@ -1,0 +1,32 @@
+ 
+GET https://venkatasubbaraohow31njscpxtwms.drops.nxtwave.tech/players/
+
+###
+
+POST https://venkatasubbaraohow31njscpxtwms.drops.nxtwave.tech/players/
+Content-Type: application/json
+
+{
+  "playerName": "Vishal",
+  "jerseyNumber": 17,
+  "role": "Bowler"
+}
+
+###
+
+GET https://venkatasubbaraohow31njscpxtwms.drops.nxtwave.tech/players/1/
+
+###
+
+PUT https://venkatasubbaraohow31njscpxtwms.drops.nxtwave.tech/players/3/
+Content-Type: application/json
+
+{
+  "playerName": "Maneesh",
+  "jerseyNumber": 54,
+  "role": "All-rounder"
+}
+
+###
+
+DELETE https://venkatasubbaraohow31njscpxtwms.drops.nxtwave.tech/players/2/
